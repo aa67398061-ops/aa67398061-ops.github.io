@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Web3 Frontend Studio</title>
+    <meta
+      name="description"
+      content="Portfolio-ready React, Next.js, Tailwind, Web3 UX, and AI product frontend work."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="AI Web3 Frontend Studio home">
+        <span>AI Web3</span> Frontend Studio
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#process">Process</a>
+        <a href="#stack">Stack</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="#contact">Hire for a Sprint</a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Ship polished crypto products faster</h1>
+          <p class="stack-line">React / Next.js / <span>Tailwind</span></p>
+          <p class="hero-lede">Portfolio-ready code, responsive UI, Web3 UX</p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#work">View Work</a>
+            <a class="button button-outline" href="#contact">Hire for a Sprint</a>
+          </div>
+          <ul class="proof-list" aria-label="Delivery strengths">
+            <li>Pixel-perfect UI</li>
+            <li>Web3 native UX</li>
+            <li>Fast delivery</li>
+            <li>Clean, scalable code</li>
+          </ul>
+        </div>
+
+        <section class="dashboard-preview" aria-label="Trading dashboard preview">
+          <aside class="dashboard-sidebar">
+            <div class="dash-brand">
+              <span>N</span>
+              Nemesis Trade
+            </div>
+            <nav aria-label="Dashboard preview navigation">
+              <a class="active" href="#">Dashboard</a>
+              <a href="#">Markets</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Analytics</a>
+              <a href="#">Orders</a>
+              <a href="#">Alerts</a>
+              <a href="#">Settings</a>
+            </nav>
+            <div class="dash-user">0x7a3...0f12</div>
+          </aside>
+          <div class="dashboard-main">
+            <div class="dashboard-topline">
+              <div>
+                <h2>Dashboard</h2>
+                <p>Overview of your trading performance</p>
+              </div>
+              <div class="dash-controls">
+                <span>Mainnet</span>
+                <button type="button">Connect Wallet</button>
+              </div>
+            </div>
+            <div class="metric-grid">
+              <article>
+                <span>Total Balance</span>
+                <strong>$128,430.25</strong>
+                <em>+4.23%</em>
+              </article>
+              <article>
+                <span>24h P&amp;L</span>
+                <strong>$5,428.41</strong>
+                <em>+2.15%</em>
+              </article>
+              <article>
+                <span>Open Positions</span>
+                <strong>7</strong>
+                <em>+2</em>
+              </article>
+              <article>
+                <span>Win Rate</span>
+                <strong>68.4%</strong>
+                <em>+6.8%</em>
+              </article>
+            </div>
+            <div class="data-row">
+              <section class="chart-panel" aria-label="Portfolio value chart">
+                <div class="panel-head">
+                  <span>Portfolio Value</span>
+                  <b>30D</b>
+                </div>
+                <svg viewBox="0 0 520 170" role="img" aria-label="Rising cyan portfolio line">
+                  <path class="grid-line" d="M0 35H520M0 85H520M0 135H520" />
+                  <path
+                    class="chart-fill"
+                    d="M0 128L32 111L63 119L95 80L126 91L158 67L189 82L221 70L252 95L284 73L315 99L347 104L378 83L410 90L441 59L473 74L520 45V170H0Z"
+                  />
+                  <path
+                    class="chart-line"
+                    d="M0 128L32 111L63 119L95 80L126 91L158 67L189 82L221 70L252 95L284 73L315 99L347 104L378 83L410 90L441 59L473 74L520 45"
+                  />
+                </svg>
+              </section>
+              <section class="allocation-panel" aria-label="Asset allocation">
+                <div class="donut" aria-hidden="true"></div>
+                <ul>
+                  <li><span class="dot cyan"></span>SOL <b>42.1%</b></li>
+                  <li><span class="dot lime"></span>BTC <b>23.4%</b></li>
+                  <li><span class="dot yellow"></span>ETH <b>18.7%</b></li>
+                  <li><span class="dot gray"></span>USDC <b>10.3%</b></li>
+                </ul>
+              </section>
+            </div>
+            <section class="positions-panel" aria-label="Recent positions">
+              <div class="panel-head">
+                <span>Recent Positions</span>
+                <button type="button">View all</button>
+              </div>
+              <div class="position-row">
+                <b>SOL/USDC</b>
+                <span>Long</span>
+                <span>120 SOL</span>
+                <span>$176.32</span>
+                <strong>+$1,027.80</strong>
+              </div>
+            </section>
+          </div>
+        </section>
+      </section>
+
+      <section id="services" class="service-strip" aria-label="Services">
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M8 16h32v20H8zM14 12h20M15 28h8M31 28h2" />
+          </svg>
+          <div>
+            <h2>Wallet UX</h2>
+            <p>Seamless connect, sign-in, and transaction flows.</p>
+          </div>
+        </article>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M12 34V14M22 38V10M32 32V16M8 25h8M18 18h8M28 26h8" />
+          </svg>
+          <div>
+            <h2>Trading UI</h2>
+            <p>Real-time data, order flows, and risk-aware interfaces.</p>
+          </div>
+        </article>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M26 6l-8 16h10l-6 20l16-24H28z" />
+          </svg>
+          <div>
+            <h2>Landing Redesign</h2>
+            <p>High-converting, responsive marketing experiences.</p>
+          </div>
+        </article>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M25 4L10 28h12l-2 16l18-26H26z" />
+          </svg>
+          <div>
+            <h2>48h first screen</h2>
+            <p>Rapid wireframe to real pixel-perfect UI.</p>
+          </div>
+        </article>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M9 9h12v12H9zM27 9h12v12H27zM9 27h12v12H9zM27 27h12v12H27z" />
+          </svg>
+          <div>
+            <h2>Clean components</h2>
+            <p>Reusable, accessible, and easy to maintain.</p>
+          </div>
+        </article>
+        <article>
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M10 32a16 16 0 1 1 28 0zM24 24l9-9M18 35h12" />
+          </svg>
+          <div>
+            <h2>Performance pass</h2>
+            <p>Lighthouse-friendly, fast, and production-ready.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="work" class="work-section">
+        <div class="section-head">
+          <h2>Selected Work</h2>
+          <a href="#contact">View all work</a>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <div class="work-thumb dark-thumb">
+              <div class="mini-chart"></div>
+            </div>
+            <div>
+              <h3>Nemesis Trade</h3>
+              <p>Web3 Trading Platform Redesign</p>
+              <div class="tag-row">
+                <span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>Web3</span>
+              </div>
+              <p class="work-copy">Full platform redesign with real-time data, order management, and portfolio analytics.</p>
+              <a href="#contact">View project</a>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumb light-thumb">
+              <div class="mini-ui"></div>
+            </div>
+            <div>
+              <h3>DSCUFO Platform</h3>
+              <p>AI SaaS Product UI</p>
+              <div class="tag-row">
+                <span>React</span><span>TypeScript</span><span>Tailwind</span><span>AI</span>
+              </div>
+              <p class="work-copy">AI-driven dashboard with usage analytics, billing, and team management.</p>
+              <a href="#contact">View project</a>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-thumb launch-thumb">
+              <strong>Trade Smarter,<br />Build Wealth.</strong>
+            </div>
+            <div>
+              <h3>Crypto Launchpad</h3>
+              <p>Marketing Landing Page</p>
+              <div class="tag-row">
+                <span>Next.js</span><span>Tailwind</span><span>Framer Motion</span>
+              </div>
+              <p class="work-copy">High-converting landing page with animations, sections, and responsive layouts.</p>
+              <a href="#contact">View project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="process" class="process-cta">
+        <div class="process">
+          <h2>Process</h2>
+          <ol>
+            <li>
+              <span>1</span>
+              <h3>Discover</h3>
+              <p>Discuss goals, users, and product context.</p>
+            </li>
+            <li>
+              <span>2</span>
+              <h3>Design</h3>
+              <p>Wireframes, UI direction, and component system.</p>
+            </li>
+            <li>
+              <span>3</span>
+              <h3>Build</h3>
+              <p>React/Next.js, Tailwind, clean and scalable code.</p>
+            </li>
+            <li>
+              <span>4</span>
+              <h3>Launch</h3>
+              <p>Test, optimize, deploy, and handover support.</p>
+            </li>
+          </ol>
+        </div>
+        <aside id="contact" class="cta-panel">
+          <div>
+            <h2>Let's build your next Web3 product</h2>
+            <p>Need a reliable frontend partner who thinks like a product builder?</p>
+            <p>Send me a quick brief and I'll reply within 24 hours.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:hello@example.com?subject=Web3%20frontend%20sprint">Hire for a Sprint</a>
+              <a class="button button-outline" href="mailto:hello@example.com?subject=Project%20brief">Send a Message</a>
+            </div>
+          </div>
+          <ul>
+            <li>Clear scope &amp; timeline</li>
+            <li>Transparent communication</li>
+            <li>Built for long-term success</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="stack" class="stack-section">
+        <h2>Stack</h2>
+        <p>React, Next.js, TypeScript, Tailwind CSS, wallet UX, product UI systems, and performance-minded implementation.</p>
+      </section>
+    </main>
+
+    <footer id="about" class="site-footer">
+      <span>AI Web3 Frontend Studio</span>
+      <p>Portfolio-ready code, responsive UI, Web3 UX.</p>
+    </footer>
+  </body>
+</html>
